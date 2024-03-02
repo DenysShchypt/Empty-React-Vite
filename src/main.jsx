@@ -10,7 +10,7 @@ import { persistor, store } from "./redux/store.js";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/Template-React-Vite">
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <PersistGate persistor={persistor}>
           <App />
           <GlobalStyle />
