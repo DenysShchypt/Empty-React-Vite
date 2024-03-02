@@ -1,8 +1,8 @@
 {
-  "name": "empty-react",
+  "name": "Template-React-Vite",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://DenysShchypt.github.io/Empty-React-Vite",
+  "homepage": "https://DenysShchypt.github.io/Template-React-Vite",
   "type": "module",
   "scripts": {
     "dev": "vite",
