@@ -1,12 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-// import { injectHTML } from 'vite-plugin-html';
-// import FullReload from 'vite-plugin-full-reload';
+import { injectHTML } from 'vite-plugin-html';
+import FullReload from 'vite-plugin-full-reload';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()
-    // , injectHTML(), FullReload(['./src/**/**.html'])
+    , injectHTML(), FullReload(['**.html'])
   ],
   server: {
     port: 3000,
