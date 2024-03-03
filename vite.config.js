@@ -6,7 +6,7 @@ import FullReload from 'vite-plugin-full-reload';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()
-    , injectHTML(), FullReload(['**.html'])
+    , injectHTML(), FullReload(['./**/**.html'])
   ],
   server: {
     port: 3000,
