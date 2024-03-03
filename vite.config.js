@@ -15,4 +15,5 @@ export default defineConfig({
   css: {
     modules: false,
   },
+  base: "/Template-React-Vite"
 })
